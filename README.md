@@ -25,3 +25,24 @@ An end-to-end Python analytics pipeline hosted in Google Colab that ingests unst
 3. Upload any customer review dataset containing `Rating` and `Review Text` columns when prompted.
 
 ## Sample Pipeline Output
+```text
+==========================================================
+     FINANCIAL & PRODUCT STRATEGY REPORT: AMAZON_REVIEWS.CSV
+==========================================================
+Total Reviews Processed   : 300
+At-Risk Customers         : 84
+Projected Churn Risk Rate : 28.0%
+Annual Revenue at Risk    : $115,200.00
+----------------------------------------------------------
+NEW EXTRACTED PAIN POINTS (AUTOMATICALLY ADAPTED):
+  1. BATTERY
+  2. CHARGING
+  3. SCREEN
+  4. SUPPORT
+----------------------------------------------------------
+AUTOMATED PRD & ACTION PLAN:
+• Core Priority Area : Resolve critical 'BATTERY' and 'CHARGING' issues.
+• Capital at Risk    : $115,200.00 ARR.
+• Recommended Action : Allocate engineering resources to fix battery optimization.
+==========================================================
+```
